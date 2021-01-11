@@ -1,0 +1,71 @@
+
+.p-image{
+    font-size: 2em;
+    padding:10px 30px 0px 0px;
+}
+.p-camera:hover,.p-upload:hover{
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+}
+
+
+
+.profile-img{
+    display: inline;
+    max-width: 300px;
+    max-height: 300px;
+    
+    min-width: 300px;
+    min-height: 300px;
+}
+.navbar-toggler
+{
+    border-color: #FFF !important;
+    margin-right: 1.2em;
+}
+
+
+
+.navbar
+{
+    background: rgba(19, 35, 47, 0.9) !important;
+    color:#FFF !important;
+    text-transform:uppercase !important;
+    font-size: 1.2em !important;
+}
+
+
+.navbar-brand
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin:0 auto !important;
+
+}
+.navbar-brand:hover
+{
+    background-color: rgba(55, 104, 140, 0.9) !important;
+}
+
+
+li 
+{
+
+    text-align: left !important;
+   
+}
+.nav-item:hover
+{
+    background-color: rgba(55, 104, 140, 0.9) !important;
+    
+    
+}
+
+.col-sm-6 h1
+{
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,95 @@
+.tile .rank {
+    max-width: 50px;
+    margin: 15px;
+}
+
+.tile {
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 23%;
+    height: 6%;
+    min-height: 400px;
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+.tile:hover {
+    opacity: .85;
+}
+
+.tile img {
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    
+
+}
+
+.profile-img{
+    
+    border: 3.5px solid white;
+    max-width: 200px;
+    max-height: 200px;
+    
+    min-width: 200px;
+    min-height: 200px;
+}
+
+
+
+
+
+
+
+
+/*RESPONSIVE RESIZE*/
+
+/*To prevent having to generate rows and collumns with bootstrap inside a loop
+and switching back between php and javascript, I made this responsive myself
+
+*/
+
+@media screen and (max-width: 600px) {
+
+    .tile {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .tile {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    .tile {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .tile {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+
+    .elipses {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
